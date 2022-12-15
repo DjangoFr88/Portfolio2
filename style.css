@@ -1,0 +1,555 @@
+
+
+body
+{
+    width: 100%;
+    background-color: #232d3a;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
+
+section
+{ 
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+
+
+/* Partie gauche */
+
+
+
+div.marge
+{
+    border: 2px solid;
+    border-color: rgb(194, 173, 233);
+    background: #0c3469;
+}
+
+
+
+img.pp
+{
+    width: 180px;
+    margin-top: 10%;
+    margin-left: 19%;
+}
+
+p.pp
+{
+    color:rgb(194, 173, 233); 
+    font-family: Consolas;
+    font-size: 25px;
+    text-align: center;
+}
+
+a.perso
+{
+    text-decoration: none;
+    color:rgb(194, 173, 233); 
+}
+
+div.trait
+{
+    border: 2px solid;
+    border-color: rgb(194, 173, 233);
+    border-bottom-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+
+
+
+p.liste
+{
+    font-family: Consolas;
+    text-align: center;
+}
+
+p.liste a
+{  
+    color: rgb(194, 173, 233); 
+    background-color: #0c3469;
+    text-decoration: none;  
+    font-size: 35px;
+}
+
+p.liste:hover a
+{
+    color: #0c3469;
+    border: 35px solid #0c3469;
+    background-color: rgb(194, 173, 233);
+    transition: 1s all;
+}
+
+
+
+footer
+{
+    border: 2px solid;
+    border-color: rgb(194, 173, 233);
+    border-bottom-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+
+
+
+/* Partie droite */
+
+
+
+div.right
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+
+
+p.titre
+{
+    color: rgb(194, 173, 233);
+    margin-top: 5%;
+    margin-left: 27%;
+    font-family: Consolas;
+    font-weight: bold;
+    font-size: 46px;
+}
+
+
+
+/* Page Index/Accueil */
+
+
+
+p.accueil1
+{
+    color: rgb(194, 173, 233);
+    margin-top: 20%;
+    margin-left: -20%;
+    font-family: Consolas;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+span.identite
+{
+    color: #125ab8;
+}
+
+p.accueil2
+{
+    color: rgb(83, 81, 85);
+    margin-left: -20%;
+    font-family: Consolas;
+    font-size: 31px;
+    text-align: center;
+}
+
+
+
+div.cv
+{
+    margin-left: 28.5%;
+    margin-top: 10%;
+}
+
+i.fa
+{ 
+    color: rgb(220, 210, 238);
+}
+
+span.cv
+{
+    color: rgb(194, 173, 233);
+    font-family: Consolas;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+/* Page Perso */
+
+
+
+
+div.sy
+{
+    margin-left: 21%;
+    margin-top: 4%;
+}
+
+i.fa
+{ 
+    color: rgb(220, 210, 238);
+}
+
+span.sy
+{
+    color: rgb(194, 173, 233);
+    font-family: Consolas;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p.perso
+{
+    color: #1f5294;
+    font-family: Consolas;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+
+/* Page Apprentissage */
+
+
+
+
+p.apprentissage
+{
+    font-family: Consolas;
+    text-align: center;
+    margin-top: 3%;
+    font-weight: bold;
+    margin-left: -20%;
+}
+
+p.apprentissage a
+{  
+    color: #0c3469; 
+    background-color: #232d3a;
+    text-decoration: none;  
+    font-size: 35px;
+}
+
+p.apprentissage:hover a
+{
+    color: #232d3a;
+    border: 35px solid #232d3a;
+    background-color: #0c3469;
+    transition: 1s all;
+}
+
+p.accueil3
+{
+    color: rgb(194, 173, 233);
+    margin-top: 5%;
+    margin-left: -20%;
+    font-family: Consolas;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+iframe{
+    margin-left: 13%;
+}
+
+
+
+/* Page Compétences */
+
+
+
+div.bar
+{
+    margin-top: 4%;
+}
+
+.progress
+{
+    margin-left: 10%;
+    margin-right: 25%;
+    margin-bottom: 3%;
+    font-family: Consolas;
+    font-size: 20px;
+    background-color: rgb(220, 210, 238);
+}
+
+.progress-bar
+{
+    background-color: #0c3469;
+    color: rgb(220, 210, 238);
+    font-weight: bold;
+}
+
+p.code
+{
+    color: rgb(220, 210, 238);   
+    margin-left: 4%;
+    font-family: Consolas;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+/* Page Experiences */
+
+
+
+img.imgkamitec
+{
+    width: 130px;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+img.imgstudiogd
+{
+    width: 340px;
+    margin-top: 12%;
+    margin-left: 2%;
+}
+
+img.imgcartekamitec
+{
+    width: 450px;
+    margin-top: 3%;
+    border: 5px solid;
+    border-color: #0c3469;
+}
+
+img.imgcartestudiogd
+{
+    width: 450px;
+    margin-top: 3%;
+    border: 5px solid;
+    border-color: #0c3469;
+}
+
+div.xpright1
+{
+    display: flex;
+    flex-direction: column;
+}
+
+div.xpright2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+p.pkamitec
+{
+    color: #0c3469;
+    font-family: Consolas;
+    font-size: 26px;
+    margin-top: -90%;
+    margin-left: 18%;
+    margin-right: 4%;
+    background-color: rgb(222, 215, 236);
+}
+
+p.pstudiogd
+{
+    color: #0c3469;
+    font-family: Consolas;
+    font-size: 26px;
+    margin-top: 16%;
+    margin-left: 38%;
+    margin-right: 4%;
+    background-color: rgb(222, 215, 236);
+}
+
+p.detailkamitec
+{
+    color: #0c3469;
+    font-family: Consolas;
+    font-size: 26px;
+    margin-top: 8%;
+    margin-left: 45%;
+    margin-right: 4%;
+    background-color: rgb(222, 215, 236);
+}
+
+p.detailstudiogd
+{
+    color: #0c3469;
+    font-family: Consolas;
+    font-size: 26px;
+    margin-top: 4%;
+    margin-left: 45%;
+    margin-right: 4%;
+    background-color: rgb(222, 215, 236); 
+}
+
+
+
+/* Page Projets */
+
+
+
+p.titre2
+{
+    color: rgb(194, 173, 233);
+    margin-top: 12%;
+    margin-left: 76%;
+    font-family: Consolas;
+    font-weight: bold;
+    font-size: 46px;
+}
+
+section.projets
+{ 
+    display: grid;
+    grid-template-columns: 2fr 4fr 4fr;
+}
+
+div.right1
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+div.right2
+{
+    margin-top: 22.2%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel
+{
+    margin-top: 5%;
+    margin-left: -5%;
+    margin-right: 5%;
+    width: 450px;
+    border: 5px solid;
+    border-color: #0c3469;
+}
+
+.carou
+{
+    width: 453px;
+}
+
+.carouh
+{
+    margin-top: 3.7%;
+}
+
+h5.carouseltitle1
+{
+    color: rgb(220, 210, 238); 
+    font-family: Consolas;
+    text-shadow: 3px 0 0 rgb(126, 74, 74);
+    font-weight: bold;
+    font-size: 26px;
+}
+
+h5.carouseltitle2
+{
+    color: rgb(178, 147, 236); 
+    font-family: Consolas;
+    text-shadow: 3px 0 0 rgb(126, 74, 74);
+    font-weight: bold;
+    font-size: 26px;
+}
+
+
+
+/* Page Projets */
+
+
+
+div.contactemot1
+{
+    margin-top: 9%;
+    font-size: 40px;
+    font-family: Consolas;
+    color: rgb(178, 147, 236);
+    margin-left: -3%;
+}
+
+div.contactemot2
+{
+    margin-top: 7%;
+    font-size: 40px;
+    margin-left: -3%;
+}
+
+span.spancontactmot2
+{
+    font-family: Consolas;
+    color: rgb(178, 147, 236); 
+}
+
+div.contactemot3
+{
+    margin-top: 7%;
+    font-size: 40px;
+    font-family: Consolas;
+    color: rgb(178, 147, 236); 
+    margin-left: -3%;
+}
+
+
+/* Page Perso */
+
+
+div.btssio
+{
+    color:white;
+    margin-left: -4%;
+    margin-top: 2%;
+}
+
+h1.h1btssio
+{
+    color: rgb(222, 215, 236)
+}
+
+
+/* Page Veilles */
+
+
+div.by
+{
+    margin-left: 21%;
+    margin-top: 1%;
+    text-align: center;
+    margin-left: -25%;
+}
+
+i.fa
+{ 
+    color: rgb(220, 210, 238);
+}
+
+span.by
+{
+    color: rgb(194, 173, 233);
+    font-family: Consolas;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+p.titre1
+{
+    color: rgb(194, 173, 233);
+    margin-top: 5%;
+    margin-left: 18%;
+    font-family: Consolas;
+    font-weight: bold;
+    font-size: 46px;
+}
+
+h2.veilles
+{
+    color: rgb(222, 215, 236);
+    text-align: center;
+    margin-left: -18%;
+}
